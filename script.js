@@ -66,6 +66,7 @@ async function fetchUserWeatherInfo(coordinates) {
     const {lat, lon} = coordinates;
     // make grantcontainer invisible
     grantAccessContainer.classList.remove("active");
+    notFound.classList.remove("active");
     //make loader visible
     loadingScreen.classList.add("active");
 
